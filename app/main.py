@@ -1,3 +1,9 @@
+from __future__ import annotations
+
+class Cargo:
+    def __init__(self, weight: float) -> None:
+        self.weight = weight
+
 class BaseRobot:
     def __init__(self, name: str, weight: float, coords: list = None) -> None:
         self.name = name
